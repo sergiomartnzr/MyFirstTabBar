@@ -21,6 +21,11 @@
 		ED0598C01FAAB07F0029D5F6 /* ic_trending_up@_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0598BD1FAAB07E0029D5F6 /* ic_trending_up@_2x.png */; };
 		ED0598C11FAAB07F0029D5F6 /* ic_trending_up.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0598BE1FAAB07F0029D5F6 /* ic_trending_up.png */; };
 		ED0598C31FAAB3960029D5F6 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = ED0598C21FAAB3960029D5F6 /* Podfile */; };
+		ED6E43D81FAFF47200DF8E32 /* CellMatchTable.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6E43D61FAFF47200DF8E32 /* CellMatchTable.m */; };
+		ED6E43D91FAFF47200DF8E32 /* CellMatchTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED6E43D71FAFF47200DF8E32 /* CellMatchTable.xib */; };
+		ED6E43DD1FB0039000DF8E32 /* BMHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6E43DC1FB0039000DF8E32 /* BMHeader.m */; };
+		ED6E43E01FB003A500DF8E32 /* BMTeam.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6E43DF1FB003A500DF8E32 /* BMTeam.m */; };
+		ED6E43E31FB003BE00DF8E32 /* BMEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6E43E21FB003BE00DF8E32 /* BMEvents.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +51,15 @@
 		ED0598BD1FAAB07E0029D5F6 /* ic_trending_up@_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_trending_up@_2x.png"; sourceTree = "<group>"; };
 		ED0598BE1FAAB07F0029D5F6 /* ic_trending_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_trending_up.png; sourceTree = "<group>"; };
 		ED0598C21FAAB3960029D5F6 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		ED6E43D51FAFF47200DF8E32 /* CellMatchTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellMatchTable.h; sourceTree = "<group>"; };
+		ED6E43D61FAFF47200DF8E32 /* CellMatchTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellMatchTable.m; sourceTree = "<group>"; };
+		ED6E43D71FAFF47200DF8E32 /* CellMatchTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellMatchTable.xib; sourceTree = "<group>"; };
+		ED6E43DB1FB0039000DF8E32 /* BMHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMHeader.h; sourceTree = "<group>"; };
+		ED6E43DC1FB0039000DF8E32 /* BMHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMHeader.m; sourceTree = "<group>"; };
+		ED6E43DE1FB003A500DF8E32 /* BMTeam.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMTeam.h; sourceTree = "<group>"; };
+		ED6E43DF1FB003A500DF8E32 /* BMTeam.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMTeam.m; sourceTree = "<group>"; };
+		ED6E43E11FB003BE00DF8E32 /* BMEvents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMEvents.h; sourceTree = "<group>"; };
+		ED6E43E21FB003BE00DF8E32 /* BMEvents.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMEvents.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +94,8 @@
 		ED05986D1FAA9C620029D5F6 = {
 			isa = PBXGroup;
 			children = (
+				ED6E43DA1FB0035600DF8E32 /* Models */,
+				ED6E43D41FAFF3A400DF8E32 /* cells */,
 				ED0598C21FAAB3960029D5F6 /* Podfile */,
 				ED05989B1FAAB0090029D5F6 /* imgs */,
 				ED0598941FAAA3140029D5F6 /* controllers */,
@@ -144,6 +160,29 @@
 			path = imgs;
 			sourceTree = "<group>";
 		};
+		ED6E43D41FAFF3A400DF8E32 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				ED6E43D51FAFF47200DF8E32 /* CellMatchTable.h */,
+				ED6E43D61FAFF47200DF8E32 /* CellMatchTable.m */,
+				ED6E43D71FAFF47200DF8E32 /* CellMatchTable.xib */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		ED6E43DA1FB0035600DF8E32 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED6E43DB1FB0039000DF8E32 /* BMHeader.h */,
+				ED6E43DC1FB0039000DF8E32 /* BMHeader.m */,
+				ED6E43DE1FB003A500DF8E32 /* BMTeam.h */,
+				ED6E43DF1FB003A500DF8E32 /* BMTeam.m */,
+				ED6E43E11FB003BE00DF8E32 /* BMEvents.h */,
+				ED6E43E21FB003BE00DF8E32 /* BMEvents.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED6E43D91FAFF47200DF8E32 /* CellMatchTable.xib in Resources */,
 				ED0598921FAA9EE60029D5F6 /* Main.storyboard in Resources */,
 				ED0598BF1FAAB07F0029D5F6 /* ic_trending_up@_3x.png in Resources */,
 				ED0598891FAA9C630029D5F6 /* LaunchScreen.storyboard in Resources */,
@@ -273,10 +313,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED6E43D81FAFF47200DF8E32 /* CellMatchTable.m in Sources */,
 				ED0598841FAA9C630029D5F6 /* MyFirstTabBar.xcdatamodeld in Sources */,
 				ED0598971FAAA4460029D5F6 /* Second.m in Sources */,
 				ED05987E1FAA9C630029D5F6 /* First.m in Sources */,
 				ED05989A1FAAA4560029D5F6 /* Third.m in Sources */,
+				ED6E43E01FB003A500DF8E32 /* BMTeam.m in Sources */,
+				ED6E43DD1FB0039000DF8E32 /* BMHeader.m in Sources */,
+				ED6E43E31FB003BE00DF8E32 /* BMEvents.m in Sources */,
 				ED05988C1FAA9C630029D5F6 /* main.m in Sources */,
 				ED05987B1FAA9C630029D5F6 /* AppDelegate.m in Sources */,
 			);

@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface First : UIViewController
+@property (strong, nonatomic) IBOutlet UITableView *tbMatch;
 
 
 @end
