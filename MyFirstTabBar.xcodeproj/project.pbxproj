@@ -7,27 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6416154C67C37A99D2C6224A /* libPods-MyFirstTabBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAFA3AD8FB62B0BE3129650 /* libPods-MyFirstTabBar.a */; };
 		ED05987B1FAA9C630029D5F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED05987A1FAA9C630029D5F6 /* AppDelegate.m */; };
-		ED05987E1FAA9C630029D5F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED05987D1FAA9C630029D5F6 /* ViewController.m */; };
-		ED0598811FAA9C630029D5F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED05987F1FAA9C630029D5F6 /* Main.storyboard */; };
+		ED05987E1FAA9C630029D5F6 /* First.m in Sources */ = {isa = PBXBuildFile; fileRef = ED05987D1FAA9C630029D5F6 /* First.m */; };
 		ED0598841FAA9C630029D5F6 /* MyFirstTabBar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED0598821FAA9C630029D5F6 /* MyFirstTabBar.xcdatamodeld */; };
 		ED0598861FAA9C630029D5F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED0598851FAA9C630029D5F6 /* Assets.xcassets */; };
 		ED0598891FAA9C630029D5F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0598871FAA9C630029D5F6 /* LaunchScreen.storyboard */; };
 		ED05988C1FAA9C630029D5F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED05988B1FAA9C630029D5F6 /* main.m */; };
+		ED0598921FAA9EE60029D5F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED05987F1FAA9C630029D5F6 /* Main.storyboard */; };
+		ED0598971FAAA4460029D5F6 /* Second.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0598961FAAA4460029D5F6 /* Second.m */; };
+		ED05989A1FAAA4560029D5F6 /* Third.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0598991FAAA4560029D5F6 /* Third.m */; };
+		ED0598BF1FAAB07F0029D5F6 /* ic_trending_up@_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0598BC1FAAB07E0029D5F6 /* ic_trending_up@_3x.png */; };
+		ED0598C01FAAB07F0029D5F6 /* ic_trending_up@_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0598BD1FAAB07E0029D5F6 /* ic_trending_up@_2x.png */; };
+		ED0598C11FAAB07F0029D5F6 /* ic_trending_up.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0598BE1FAAB07F0029D5F6 /* ic_trending_up.png */; };
+		ED0598C31FAAB3960029D5F6 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = ED0598C21FAAB3960029D5F6 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26F0C62BA1FF3A6ABFEDF75C /* Pods-MyFirstTabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFirstTabBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyFirstTabBar/Pods-MyFirstTabBar.debug.xcconfig"; sourceTree = "<group>"; };
+		2DAFA3AD8FB62B0BE3129650 /* libPods-MyFirstTabBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyFirstTabBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF3F767D34C4D4A7324D3C9 /* Pods-MyFirstTabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFirstTabBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyFirstTabBar/Pods-MyFirstTabBar.release.xcconfig"; sourceTree = "<group>"; };
 		ED0598761FAA9C630029D5F6 /* MyFirstTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0598791FAA9C630029D5F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ED05987A1FAA9C630029D5F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ED05987C1FAA9C630029D5F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ED05987D1FAA9C630029D5F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED05987C1FAA9C630029D5F6 /* First.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = First.h; sourceTree = "<group>"; };
+		ED05987D1FAA9C630029D5F6 /* First.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = First.m; sourceTree = "<group>"; };
 		ED0598801FAA9C630029D5F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED0598831FAA9C630029D5F6 /* MyFirstTabBar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyFirstTabBar.xcdatamodel; sourceTree = "<group>"; };
 		ED0598851FAA9C630029D5F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED0598881FAA9C630029D5F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED05988A1FAA9C630029D5F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED05988B1FAA9C630029D5F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED0598951FAAA4460029D5F6 /* Second.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Second.h; sourceTree = "<group>"; };
+		ED0598961FAAA4460029D5F6 /* Second.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Second.m; sourceTree = "<group>"; };
+		ED0598981FAAA4560029D5F6 /* Third.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Third.h; sourceTree = "<group>"; };
+		ED0598991FAAA4560029D5F6 /* Third.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Third.m; sourceTree = "<group>"; };
+		ED0598BC1FAAB07E0029D5F6 /* ic_trending_up@_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_trending_up@_3x.png"; sourceTree = "<group>"; };
+		ED0598BD1FAAB07E0029D5F6 /* ic_trending_up@_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_trending_up@_2x.png"; sourceTree = "<group>"; };
+		ED0598BE1FAAB07F0029D5F6 /* ic_trending_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_trending_up.png; sourceTree = "<group>"; };
+		ED0598C21FAAB3960029D5F6 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +53,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6416154C67C37A99D2C6224A /* libPods-MyFirstTabBar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63E48ABE49EF147D42DF4AD6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26F0C62BA1FF3A6ABFEDF75C /* Pods-MyFirstTabBar.debug.xcconfig */,
+				8EF3F767D34C4D4A7324D3C9 /* Pods-MyFirstTabBar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A893615A4CDE1B301EA90835 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DAFA3AD8FB62B0BE3129650 /* libPods-MyFirstTabBar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ED05986D1FAA9C620029D5F6 = {
 			isa = PBXGroup;
 			children = (
+				ED0598C21FAAB3960029D5F6 /* Podfile */,
+				ED05989B1FAAB0090029D5F6 /* imgs */,
+				ED0598941FAAA3140029D5F6 /* controllers */,
+				ED0598931FAAA27B0029D5F6 /* main */,
 				ED0598781FAA9C630029D5F6 /* MyFirstTabBar */,
 				ED0598771FAA9C630029D5F6 /* Products */,
+				63E48ABE49EF147D42DF4AD6 /* Pods */,
+				A893615A4CDE1B301EA90835 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,10 +102,6 @@
 		ED0598781FAA9C630029D5F6 /* MyFirstTabBar */ = {
 			isa = PBXGroup;
 			children = (
-				ED0598791FAA9C630029D5F6 /* AppDelegate.h */,
-				ED05987A1FAA9C630029D5F6 /* AppDelegate.m */,
-				ED05987C1FAA9C630029D5F6 /* ViewController.h */,
-				ED05987D1FAA9C630029D5F6 /* ViewController.m */,
 				ED05987F1FAA9C630029D5F6 /* Main.storyboard */,
 				ED0598851FAA9C630029D5F6 /* Assets.xcassets */,
 				ED0598871FAA9C630029D5F6 /* LaunchScreen.storyboard */,
@@ -74,6 +112,38 @@
 			path = MyFirstTabBar;
 			sourceTree = "<group>";
 		};
+		ED0598931FAAA27B0029D5F6 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				ED0598791FAA9C630029D5F6 /* AppDelegate.h */,
+				ED05987A1FAA9C630029D5F6 /* AppDelegate.m */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		ED0598941FAAA3140029D5F6 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED05987C1FAA9C630029D5F6 /* First.h */,
+				ED05987D1FAA9C630029D5F6 /* First.m */,
+				ED0598951FAAA4460029D5F6 /* Second.h */,
+				ED0598961FAAA4460029D5F6 /* Second.m */,
+				ED0598981FAAA4560029D5F6 /* Third.h */,
+				ED0598991FAAA4560029D5F6 /* Third.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		ED05989B1FAAB0090029D5F6 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				ED0598BE1FAAB07F0029D5F6 /* ic_trending_up.png */,
+				ED0598BD1FAAB07E0029D5F6 /* ic_trending_up@_2x.png */,
+				ED0598BC1FAAB07E0029D5F6 /* ic_trending_up@_3x.png */,
+			);
+			path = imgs;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -81,9 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED05988F1FAA9C630029D5F6 /* Build configuration list for PBXNativeTarget "MyFirstTabBar" */;
 			buildPhases = (
+				3F47800BD69914B811C693AC /* [CP] Check Pods Manifest.lock */,
 				ED0598721FAA9C630029D5F6 /* Sources */,
 				ED0598731FAA9C630029D5F6 /* Frameworks */,
 				ED0598741FAA9C630029D5F6 /* Resources */,
+				D87F58925556687364A4B9A8 /* [CP] Embed Pods Frameworks */,
+				1D6E2C2441E042AADDB44210 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +205,68 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED0598921FAA9EE60029D5F6 /* Main.storyboard in Resources */,
+				ED0598BF1FAAB07F0029D5F6 /* ic_trending_up@_3x.png in Resources */,
 				ED0598891FAA9C630029D5F6 /* LaunchScreen.storyboard in Resources */,
+				ED0598C01FAAB07F0029D5F6 /* ic_trending_up@_2x.png in Resources */,
 				ED0598861FAA9C630029D5F6 /* Assets.xcassets in Resources */,
-				ED0598811FAA9C630029D5F6 /* Main.storyboard in Resources */,
+				ED0598C31FAAB3960029D5F6 /* Podfile in Resources */,
+				ED0598C11FAAB07F0029D5F6 /* ic_trending_up.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D6E2C2441E042AADDB44210 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyFirstTabBar/Pods-MyFirstTabBar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F47800BD69914B811C693AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyFirstTabBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D87F58925556687364A4B9A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyFirstTabBar/Pods-MyFirstTabBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ED0598721FAA9C630029D5F6 /* Sources */ = {
@@ -146,7 +274,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED0598841FAA9C630029D5F6 /* MyFirstTabBar.xcdatamodeld in Sources */,
-				ED05987E1FAA9C630029D5F6 /* ViewController.m in Sources */,
+				ED0598971FAAA4460029D5F6 /* Second.m in Sources */,
+				ED05987E1FAA9C630029D5F6 /* First.m in Sources */,
+				ED05989A1FAAA4560029D5F6 /* Third.m in Sources */,
 				ED05988C1FAA9C630029D5F6 /* main.m in Sources */,
 				ED05987B1FAA9C630029D5F6 /* AppDelegate.m in Sources */,
 			);
@@ -280,6 +410,7 @@
 		};
 		ED0598901FAA9C630029D5F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26F0C62BA1FF3A6ABFEDF75C /* Pods-MyFirstTabBar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -293,6 +424,7 @@
 		};
 		ED0598911FAA9C630029D5F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EF3F767D34C4D4A7324D3C9 /* Pods-MyFirstTabBar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

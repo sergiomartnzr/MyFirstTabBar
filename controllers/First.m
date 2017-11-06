@@ -6,13 +6,13 @@
 //  Copyright © 2017 Sergio Martinez. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "First.h"
 
-@interface ViewController ()
+@interface First ()
 
 @end
 
-@implementation ViewController
+@implementation First
 
 - (void)viewDidLoad {
     [super viewDidLoad];
